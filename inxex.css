@@ -1,0 +1,85 @@
+body{
+    width: 250px;
+    height: 400px;
+    background-color: #222831;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+    padding-top: 2px;
+}
+.header{
+    font-size: 24px;
+    text-align: center;
+}
+
+.subheader{
+    color: rgba(255, 255, 255, 0.703);
+    font-size: 16px;
+}
+
+.domain-input{
+    border: #FFB200 solid 3px;
+    width: 220px;
+    height: 24px;
+    border-radius: 5px;
+    padding-left: 4px;
+    outline-color: #FFB200;
+}
+.button{
+    width: 70px;
+    height: 25px;
+    background-color: #4C4C4C;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.BDL-title{
+    display: flex;
+    /* height: 30px; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BDL{
+    color: #FFB200;
+    font-size: 16px;
+}
+
+.remove-all-button{
+    background-color: #e40039bd;
+    color: rgba(255, 255, 255, 0.758);
+    border-radius: 3px;
+    border: 0px;
+    width: 80px;
+    height: 27px;
+    font-size: 11px;
+}
+
+#domainList{
+    width: 240px;
+    
+}
+.domain-item{
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.domain-name{
+    font-size: 15px;
+    /* height: 20px; */
+}
+.remove-button{
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+}
+.icon{
+    color: red;
+}

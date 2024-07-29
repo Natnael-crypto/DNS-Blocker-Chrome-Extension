@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS Blocker</title>
+    <link rel="stylesheet" href="inxex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p>DNS Blocker</p>
+        </div>
+        
+        <div class="blocker-form">
+            <p class="subheader" >Add Domain To block</p>
+            <form>
+                <div class="domain-input-container">
+                    <input type="text" id="domainInput" placeholder="example.com" class="domain-input">
+                </div>
+                <br>
+                <div class="domain-buttons">
+                    <button class="button" id="addButton">Block</button>
+                    <label for="includeSubdomain" style="margin-left: 1rem;">Includes subdomains<strong style="color: red;">*</strong></label>
+                    <br>
+                </div>
+            
+            </form>
+        </div>
+        <div class="Blocked-Domains-list">
+            <div class="BDL-title">
+                <p class="BDL">Blocked Domains</p>
+                <button id="removeAllButton" class="remove-all-button">Remove All</button>
+            </div>
+
+            <hr>
+            <div class="domain">
+              <div id="domainList"></div>
+            </div>
+        </div>
+    </div>
+    
+  <script src="popup.js"></script>
+</body>
+</html>
